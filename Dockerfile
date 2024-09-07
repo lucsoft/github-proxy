@@ -4,4 +4,4 @@ copy . .
 
 run deno cache mod.ts
 
-cmd ["deno", "run", "-A", "mod.ts"]
+entrypoint ["deno", "run", "-A", "mod.ts"]
